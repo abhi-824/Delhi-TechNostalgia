@@ -47,16 +47,17 @@
 		}
 	</style>
 	<body>
-		<div class="container1">
+		<div class="containerForSorting">
 			<div class="section1">
-				<h1 class="curr_title">DTU</h1>
+				
+            <h1 class="curr_title">Sorting Visualiser</h1>
 				<div class="curr_content">
-					Teaches many lessons. You can do whatever you want, what you need is
-					just a push.
-				</div>
+               This visualiser not ony gives you visualisations of sorting algorithms but also gives you the theory of sorting algos to understand them more clearly;
+            </div>
+            <button class="btn-primary gotodash">Go Back</button>
 			</div>
 			<div class="section2">
-				<div class="buttons">
+				<div class="buttonsForSOrting">
 					<div class="array-inputs">
 						<p>Size of the array:</p>
 						<input
@@ -78,25 +79,18 @@
 							value="4"
 						/>
 					</div>
-					<button class="btn btn-primary">Generate New Array</button>
+					<button class="btn btn-primary gen_array">Generate New Array</button>
 					<button class="btn btn-secondary bubble">Bubble Sort</button>
 					<button class="btn btn-secondary selection">Selection Sort</button>
 					<button class="btn btn-secondary insertion">Insertion Sort</button>
 					<button class="btn btn-secondary merge">Merge Sort</button>
 					<button class="btn btn-secondary quick">Quick Sort</button>
-					<button class="btn btn-secondary heap">Heap Sort</button>
+					<button class="btn btn-secondary heap hidden ">Heap Sort</button>
 				</div>
 				<div class="array"></div>
 			</div>
 		</div>
-
 		<script src="js/main.js"></script>
-		<script src="js/bubble.js"></script>
-		<script src="js/selection.js"></script>
-		<script src="js/heap_sort.js"></script>
-		<script src="js/merge.js"></script>
-		<script src="js/insertion.js"></script>
-		<script src="js/quick.js"></script>
 		<!-- Footer -->
 	</body>
 </html>
